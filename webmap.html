@@ -20,13 +20,14 @@
     </style>
 
     <script src="https://js.arcgis.com/4.29/"></script>
-
+    
+// this section of the code is making the request to ESRI for the necessary library
     <script>
       require(["esri/WebMap", "esri/views/MapView", "esri/widgets/LayerList"],
       (WebMap, MapView, LayerList) => {
         const map = new WebMap({
           portalItem: {
-            id: "6361681bd24b41e09bbb993fbf0fad6f"
+            id: "6361681bd24b41e09bbb993fbf0fad6f"]
           }
         });
 
